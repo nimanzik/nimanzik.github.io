@@ -26,11 +26,6 @@ Let's first install and import packages we'll use and set up the working environ
 ```python
 !conda install -c conda-forge -q -y squarify
 ```
-
-    Collecting package metadata (current_repodata.json): ...working... done
-    Solving environment: ...working... done
-    
-    # All requested packages already installed.
     
 
 
@@ -1316,8 +1311,11 @@ sns.heatmap(corr, ax=ax, mask=mask, annot=True, cmap='BrBG', vmin=-1);
 
 
     
-![png](/assets/img/2021-11-05-car-price-germany-eda/output_55_0.png)
-    
+<img
+  src="/assets/img/2021-11-05-car-price-germany-eda/output_55_0.png"
+  class="center_img" style="width: 50%;" >
+
+
 
 
 The highest correlation shows for `price` with horsepower `hp` and `age` (no big news). Looking at negative correlation between `price` with `age` also seems natural.

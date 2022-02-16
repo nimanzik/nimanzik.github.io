@@ -99,23 +99,23 @@ body{
 
 .language-python.highlighter-rouge {
   background-color: #eee;
-  padding: 1px 10px;
-  margin: 20px 0 10px 0;   /* top, right, bottom, left */
-  border-radius: 8px;
+  padding: 2.5px 5px;
+  margin: 10px 0 10px 0;   /* top, right, bottom, left */
+  border-radius: 5px;
 }
 
 .language-matlab.highlighter-rouge {
   background-color: #eee;
-  padding: 1px 10px;
-  margin: 20px 0 10px 0;   /* top, right, bottom, left */
-  border-radius: 8px;
+  padding: 1px 5px;
+  margin: 10px 0 10px 0;   /* top, right, bottom, left */
+  border-radius: 5px;
 }
 
 .language-r.highlighter-rouge {
   background-color: #eee;
-  padding: 1px 10px;
-  margin: 20px 0 10px 0;   /* top, right, bottom, left */
-  border-radius: 8px;
+  padding: 1px 5px;
+  margin: 10px 0 10px 0;   /* top, right, bottom, left */
+  border-radius: 5px;
 }
 
 .post_tag {
