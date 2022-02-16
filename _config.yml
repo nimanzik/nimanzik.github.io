@@ -1,0 +1,66 @@
+# Info about myself
+name: Nima Nooshiri
+position: Data Science,<br>Data Analytics,<br>Software Development   # <br> is line-break tag
+email: nima.nooshiri@gmail.com
+company_name: "?"
+company_url: "?"
+place_name: Potsdam, DE
+
+# Blog info
+title: Nima Nooshiri
+description: Blog
+url: https://nimanzik.github.io/
+main_github_io: true
+long_description: >-   # This means to ignore newlines until next attribute
+    Hi! I'm an Earth-observation data scientist with extensive experience
+    in Python programming, data analysis, signal processing and modelling.
+    I'm highly interested in using machine learning & deep learning powered
+    models for actionable insights.
+
+# Social links
+github_url: https://github.com/nimanzik
+linkedin_url: http://www.linkedin.com/in/nima-nooshiri
+twitter_url: https://twitter.com/nimanzik
+social:
+  links:
+    - http://www.linkedin.com/in/nima-nooshiri
+    - https://github.com/nimanzik
+    - https://twitter.com/nimanzik
+
+# Images + files
+logo: /assets/img/headshot.png
+resume_url: /assets/files/resume.pdf
+
+# Blog settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+highlighter: rouge
+color_mode: light  # Options: {auto, light, dark}
+comments: false
+disqus_shortname: none
+syntax_highlight_stylesheet: syntax_highlight/tango.css
+
+# Colors - light mode
+colors:
+  text: 282828
+  tag: cd9d3b
+  tag_hover: be8f30
+  header_background: 112244
+  header_text: eeddbb
+  header_link_hover: aa802b
+  links: 112244
+  links_visited: 204181
+
+# Colors - dark mode
+colors_dark:
+  background: 333
+  text: ccc
+  tag: 2e6830
+  tag_hover: 93cf95
+  header_background: 232
+  header_text: 93cf95
+  header_link: 93cf95
+  header_link_hover: 459c48
+  links: 459c48
+  links_visited: 357a38
