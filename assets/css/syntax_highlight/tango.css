@@ -3,10 +3,10 @@ For a list of all available Google Fonts, vists:
 https://www.w3schools.com/howto/howto_google_fonts.asp
 */
 
-@import url('https://fonts.googleapis.com/css?family=Source Code Pro');
+@import url('https://fonts.googleapis.com/css?family=Courier Prime');
 
 pre, code {
-  font-family: 'Source Code Pro';
+  font-family: 'Courier Prime';
   font-size: 11pt;
   margin: 5px 0 5px 2px;   /* top, right, bottom, left */
 }
@@ -49,7 +49,7 @@ td {
 }
 
 img {
-  max-width: 100%;   /* Set the width of images to 100% */
+  max-width: 95%;   /* Set the width of images to X% */
 }
 
 .highlight .hll { background-color: #ffffcc }
