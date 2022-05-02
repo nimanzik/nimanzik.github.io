@@ -834,25 +834,25 @@ for q_level, alpha in quantiles.items():
     
     Hyperparameter optimization for quantile regressor with alpha=0.025 ..... Done
     Best parameters:
-        sigma: 0.010000
-        num_leaves: 10.000000
-        max_depth: 2.000000
+        sigma: 0.01
+        num_leaves: 20
+        max_depth: 6
         learning_rate: 0.320519
     ========================================
     
     Hyperparameter optimization for quantile regressor with alpha=0.500 ..... Done
     Best parameters:
-        sigma: 0.010000
-        num_leaves: 50.000000
-        max_depth: 27.000000
+        sigma: 0.01
+        num_leaves: 41
+        max_depth: 27
         learning_rate: 0.197304
     ========================================
     
     Hyperparameter optimization for quantile regressor with alpha=0.975 ..... Done
     Best parameters:
-        sigma: 0.010000
-        num_leaves: 10.000000
-        max_depth: 30.000000
+        sigma: 0.01
+        num_leaves: 31
+        max_depth: 19
         learning_rate: 0.157132
     ========================================
     CPU times: user 3min 1s, sys: 3.07 s, total: 3min 4s
