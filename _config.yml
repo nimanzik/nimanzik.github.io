@@ -12,10 +12,9 @@ description: Blog
 url: https://nimanzik.github.io/
 main_github_io: true
 long_description: >-   # This means to ignore newlines until next attribute
-    Hi! I'm an applied deep-learning research scientist with expertise in
-    earth and environmental sciences and extensive experience in Python programming,
+    Hi! I'm a research data scientist with extensive experience in Python programming,
     statistics, signal processing and modelling.
-    I'm highly interested in using machine learning- & deep learning-powered
+    I'm highly interested in using machine learning- and deep learning-powered
     models for actionable insights.
 
 # Social links
