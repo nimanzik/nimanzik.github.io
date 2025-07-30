@@ -1,10 +1,10 @@
 # Info about myself
 name: Nima Nooshiri
-position: Data Science | Data Analytics |<br>Python Development   # <br> is line-break tag
+position: Data Scientist | AI Developer | <br>Signal Processing   # <br> is line-break tag
 email: nima.nooshiri@gmail.com
-company_name: "?"
-company_url: "?"
-place_name: Potsdam, DE
+company_name: "BDiM GmbH"
+company_url: "https://bdim.ai"
+place_name: Berlin, DE
 
 # Blog info
 title: Nima Nooshiri
@@ -12,10 +12,14 @@ description: Blog
 url: https://nimanzik.github.io/
 main_github_io: true
 long_description: >-   # This means to ignore newlines until next attribute
-    Hi! I'm a research data scientist with extensive experience in Python programming,
-    statistics, signal processing and modelling.
-    I'm highly interested in using machine learning- and deep learning-powered
-    models for actionable insights.
+    Hi! I'm a Data Scientist and AI Developer with extensive experience in digital signal processing,
+    Python programming, machine learning (ML), and deep learning (DL).
+    My expertise includes working with various AI frameworks such as PyTorch, scikit-learn, Ray, and MLflow,
+    as well as proficiently using Python libraries like NumPy, SciPy, and Polars for data manipulation and analysis.
+    I have a passion for solving complex problems and creating innovative solutions using data-driven approaches.
+    I am highly skilled in collaborating with cross-functional teams to deliver end-to-end solutions that meet
+    business objectives. My strong communication skills enable me to effectively convey complex technical concepts to
+    both technical and non-technical stakeholders.
 
 # Social links
 github_url: https://github.com/nimanzik
@@ -36,31 +40,35 @@ markdown: kramdown
 plugins:
   - jekyll-seo-tag
 highlighter: rouge
-color_mode: light  # Options: {auto, light, dark}
+color_mode: dark  # Options: {auto, light, dark}
 comments: false
 disqus_shortname: none
-syntax_highlight_stylesheet: syntax_highlight/tango.css
+syntax_highlight_stylesheet: syntax_highlight/monokai.css
 
 # Colors - light mode
 colors:
   text: 282828
-  tag: cd9d3b
-  tag_hover: be8f30
-  header_background: 112244
-  header_text: eeddbb
+  tag: 20c997
+  tag_text: 343a40
+  tag_hover: 212529
+  tag_text_hover: 0bdea0
+  header_background: 0f191f
+  header_text: a9d5c4
   header_link_hover: aa802b
-  links: 112244
-  links_visited: 204181
+  links: 5fb950
+  links_visited: 5fb950
 
 # Colors - dark mode
 colors_dark:
-  background: 333
-  text: ccc
-  tag: 2e6830
-  tag_hover: 93cf95
-  header_background: 232
-  header_text: 93cf95
+  background: 132027
+  text: e0e0e0
+  tag: f0fff4
+  tag_text: ffffff  # This will be practically the same as the `links` color
+  tag_hover: 459c48 # Therefore, we set this to the same color as `links`
+  tag_text_hover: f0fff4
+  header_background: 0f191f
+  header_text: a9d5c4
   header_link: 93cf95
   header_link_hover: 459c48
   links: 459c48
-  links_visited: 357a38
+  links_visited: 459c48

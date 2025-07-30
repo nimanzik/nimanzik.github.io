@@ -8,7 +8,7 @@ https://www.w3schools.com/howto/howto_google_fonts.asp
 @import url('https://fonts.googleapis.com/css?family=JetBrains Mono');
 
 pre, code {
-  font-family: "Source Code Pro", "IBM Plex Mono", "JetBrains Mono";
+  font-family: "JetBrains Mono", "IBM Plex Mono", "Source Code Pro";
   font-size: 11pt;
   /* To change margin, use the following: */
   /* margin: 5px 5px 10px 5px;   top, right, bottom, left */
@@ -16,6 +16,49 @@ pre, code {
   /* margin-left: 5px; */
 }
 
+table {
+  width:90%;   /* Set the width of tables */
+  margin: 0 auto;  /* Center the table */
+  border-collapse: collapse;  /* To avoid having double borders */
+  border-color: #ddd;
+}
+
+/* Table header */
+table th {
+  font-weight: bold;
+  text-align: center !important;
+  border-color: #ddd;
+  background-color: #112244;
+  color: #e4f4ff;
+}
+
+/*
+Table zebra stripes: add background color on every other table row
+Using `(even)` instead of `(odd)`, the styling will occur on row 2,4,6 etc
+instead of 1,3,5 etc.
+tr:nth-child(even) {
+    background-color: #354046;
+    color: #282828;
+}
+*/
+
+/* Hoverable table: highlight table rows on mouse over */
+tr:hover {
+    background-color: #e4f4ff;
+    color: #282828;
+}
+
+/* Table data */
+td {
+    text-align: left;
+    border-color: #ddd;
+}
+
+img {
+  max-width: 90%;   /* Set the width of images to X% */
+  display: block;   /* Required for margin auto to work */
+  margin: 0 auto;   /* Center the image */
+}
 
 /* Light mode, use Github highlighting */
 {% if site.color_mode == "light" %}

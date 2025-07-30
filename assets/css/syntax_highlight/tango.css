@@ -4,15 +4,18 @@ https://www.w3schools.com/howto/howto_google_fonts.asp
 */
 
 @import url('https://fonts.googleapis.com/css?family=Courier Prime');
+@import url('https://fonts.googleapis.com/css?family=IBM Plex Mono');
+@import url('https://fonts.googleapis.com/css?family=JetBrains Mono');
 
 pre, code {
-  font-family: 'Courier Prime';
-  font-size: 11pt;
+  font-family: "JetBrains Mono", "IBM Plex Mono", 'Courier Prime';
+  font-size: 10pt;
   margin: 5px 0 5px 2px;   /* top, right, bottom, left */
 }
 
 table {
-  width:100%;   /* Set the width of tables to 100% */
+  width:90%;   /* Set the width of tables */
+  margin: 0 auto;  /* Center the table */
   border-collapse: collapse;  /* To avoid having double borders */
   border-color: #ddd;
 }
@@ -26,9 +29,9 @@ tr:nth-child(odd) {
 */
 
 /* Table header */
-th {
+table th {
   font-weight: bold;
-  text-align: left;
+  text-align: left !important;
   border-color: #ddd;
 }
 
@@ -44,12 +47,14 @@ tr:hover {
 
 /* Table data */
 td {
-  text-align: right;
+  text-align: left;
   border-color: #ddd;
 }
 
 img {
-  max-width: 95%;   /* Set the width of images to X% */
+  max-width: 90%;   /* Set the width of images to X% */
+  display: block;   /* Required for margin auto to work */
+  margin: 0 auto;   /* Center the image */
 }
 
 .highlight .hll { background-color: #ffffcc }
