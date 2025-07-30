@@ -2,7 +2,7 @@
 ---
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab');
-@import url('https://fonts.googleapis.com/css?family=Source Sans 3');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+3');
 
 body{
   font-family: 'Source Sans 3', sans-serif;
@@ -21,8 +21,8 @@ body{
 .col2 {
   float: left;
   width: 50%;
-  text-align: center;
-  height: 20px;
+  height: 25px;
+  text-align: left;
 }
 
 .col1 {
@@ -132,7 +132,7 @@ body{
   display: inline-block;
   background: #{{ site.colors.tag }};
   color: #{{ site.colors.tag_text }};
-  padding: 0.3rem 0.5rem;
+  padding: 0.2rem 0.5rem;
   margin: 0.25rem;
   border-radius: 5px;
 }
