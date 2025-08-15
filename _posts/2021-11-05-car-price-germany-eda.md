@@ -3,7 +3,7 @@ layout: post
 title: "Price Prediction of Used Cars in Germany (2011-2021) — Part I: Exploratory Data Analysis"
 date: 2021-11-05
 description: ""
-img_url: /assets/img/2021-11-05-car-price-germany-eda/output_55_0.png
+img_url: #/assets/img/2021-11-05-car-price-germany-eda/output_55_0.png__
 tags: ["EDA"]
 # github_url:
 # colab_url:

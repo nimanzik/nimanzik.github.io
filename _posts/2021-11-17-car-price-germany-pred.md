@@ -3,7 +3,7 @@ layout: post
 title: "Price Prediction of Used Cars in Germany (2011-2021) — Part II: Prediction Using Quantile Loss"
 date: 2021-11-17
 description: ""
-img_url: /assets/img/2021-11-17-car-price-germany-pred/output_7_0.png
+img_url: #/assets/img/2021-11-17-car-price-germany-pred/output_7_0.png
 tags: ["Prediction", "Uncertainty", "LightGBM"]
 # github_url:
 # colab_url:
