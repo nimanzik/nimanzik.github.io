@@ -9,7 +9,7 @@ tags: ["MLflow", "Presentation"]
 # kaggle_url:
 ---
 
-I gave a presentation on MLflow to my junior colleagues on May 16, 2023.
+I gave a presentation on MLflow to my junior colleagues on 16 May 2023.
 
 MLflow is an open-source platform designed to streamline the ML and DL model lifecycle, from experimentation to deployment. In this presentation, I covered MLflow's core components, that are **Tracking**, **Projects**, **Models**, and **Model Registry**, and demonstrated how they help manage ML and DL workflows.
 
